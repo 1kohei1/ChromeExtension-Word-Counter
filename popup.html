@@ -1,0 +1,110 @@
+<html>
+<head>
+	<link rel="stylesheet" href="popup.css">
+	<script src="popup.js"></script>
+</head>
+<body>
+	<table><tbody>
+		<tr><td><span id="week"></span><br>Weekly</td><td><span id="today"></span><br>Today</td></tr>
+	</tbody></table>
+	<div id="chart">
+		<div id="axis">
+			<p>40</p>
+			<p>30</p>
+			<p>20</p>
+			<p>10</p>
+			<p style="margin-bottom: 0">0</p>
+		</div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">S</p>
+             <p class="bar" id="Sun" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">M</p>
+             <p class="bar" id="Mon" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">T</p>
+             <p class="bar" id="Tue" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">W</p>
+             <p class="bar" id="Wed" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">T</p>
+             <p class="bar" id="Thr" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">F</p>
+             <p class="bar" id="Fri" value=""></p>
+         </div>
+         <div class="col">
+             <p class="first"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="block"></p>
+             <p class="day">S</p>
+             <p class="bar" id="Sat" value=""></p>
+         </div>
+		 <div style="clear: left;"></div>
+	</div>
+	<ul id="options">
+		<li id="first" value="sample">Options</li>
+		<li class="section">
+			<p class="title">Language:</p>
+			<p class="choice" id="lang">English (default)</p>
+			<div class="hide" id="lang_option">
+				<p class="lang_choice" id="en">English (default)</p>
+				<p class="lang_choice" id="fr">French</p>
+				<p class="lang_choice" id="es">Spanish</p>
+			</div>
+		</li>
+		<li class="section" style="top:0px">
+			<p class="title">On / Off:</p>
+			<div class="choice" id="on_off">
+				<div id="on_off_box">
+					<p id="on">ON</p>
+					<p id="off">OFF</p>
+				</div>
+			</div>
+		</li>
+		<li class="section" style="top:0px;">
+			<p class="title">Contact:</p>
+			<p class="choice"><a id="contact">Contact</a></p>
+		</li>
+	</ul>
+	<div id="period"><span id="start">2014/1/24</span> - <span id="end">2014/1/31</span></div>
+</body>
+</html>
