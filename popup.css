@@ -136,13 +136,6 @@ table #today {
 #options .open {
 	background-color: #ddd !important;
 }
-#options .open:before {
-	margin-top: -5px !important;
-}
-#options .open:after {
-	margin-top: -0px !important;
-	background: #ddd !important;
-}
 /*** Section ***/
 #options .section {
 	position: absolute;
